@@ -1,6 +1,9 @@
 import UIKit
 
 class TweetsViewController: UITableViewController {
+    private var tweets:[Tweet] = [Tweet(title: "hoge", body: "hogehoge"),
+                                  Tweet(title: "foo", body: "fooooo"),
+                                  Tweet(title: "bar", body: "barbar")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,11 +24,20 @@ class TweetsViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return tweets.count
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        
+        let tweet = tweets[indexPath.row]
+        cell.textLabel?.text = tweet.title
+        
+        return cell
     }
 }
