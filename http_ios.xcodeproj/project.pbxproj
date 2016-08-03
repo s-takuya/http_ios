@@ -15,6 +15,7 @@
 		BA0DBBBC1D51DE150015F20A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0DBBBA1D51DE150015F20A /* LaunchScreen.storyboard */; };
 		BA0DBBC71D51DE150015F20A /* http_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DBBC61D51DE150015F20A /* http_iosTests.swift */; };
 		BA0DBBD21D51DE150015F20A /* http_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DBBD11D51DE150015F20A /* http_iosUITests.swift */; };
+		BA0DBBE01D51DF000015F20A /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DBBDF1D51DF000015F20A /* TweetsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BA0DBBCD1D51DE150015F20A /* http_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = http_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0DBBD11D51DE150015F20A /* http_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = http_iosUITests.swift; sourceTree = "<group>"; };
 		BA0DBBD31D51DE150015F20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0DBBDF1D51DF000015F20A /* TweetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BA0DBBBA1D51DE150015F20A /* LaunchScreen.storyboard */,
 				BA0DBBBD1D51DE150015F20A /* Info.plist */,
 				BA0DBBB51D51DE150015F20A /* http_ios.xcdatamodeld */,
+				BA0DBBDF1D51DF000015F20A /* TweetsViewController.swift */,
 			);
 			path = http_ios;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA0DBBE01D51DF000015F20A /* TweetsViewController.swift in Sources */,
 				BA0DBBB11D51DE150015F20A /* ViewController.swift in Sources */,
 				BA0DBBB71D51DE150015F20A /* http_ios.xcdatamodeld in Sources */,
 				BA0DBBAF1D51DE150015F20A /* AppDelegate.swift in Sources */,
