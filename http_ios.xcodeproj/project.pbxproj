@@ -17,6 +17,7 @@
 		BA0DBBD21D51DE150015F20A /* http_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DBBD11D51DE150015F20A /* http_iosUITests.swift */; };
 		BA0DBBE01D51DF000015F20A /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DBBDF1D51DF000015F20A /* TweetsViewController.swift */; };
 		BA0DBBE21D51E0960015F20A /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DBBE11D51E0960015F20A /* Tweet.swift */; };
+		BA0DBBE61D51E7C80015F20A /* TweetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DBBE51D51E7C80015F20A /* TweetDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BA0DBBD31D51DE150015F20A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA0DBBDF1D51DF000015F20A /* TweetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
 		BA0DBBE11D51E0960015F20A /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		BA0DBBE51D51E7C80015F20A /* TweetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				BA0DBBB51D51DE150015F20A /* http_ios.xcdatamodeld */,
 				BA0DBBDF1D51DF000015F20A /* TweetsViewController.swift */,
 				BA0DBBE11D51E0960015F20A /* Tweet.swift */,
+				BA0DBBE51D51E7C80015F20A /* TweetDetailViewController.swift */,
 			);
 			path = http_ios;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				BA0DBBB11D51DE150015F20A /* ViewController.swift in Sources */,
 				BA0DBBB71D51DE150015F20A /* http_ios.xcdatamodeld in Sources */,
 				BA0DBBAF1D51DE150015F20A /* AppDelegate.swift in Sources */,
+				BA0DBBE61D51E7C80015F20A /* TweetDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +498,7 @@
 				BA0DBBD81D51DE150015F20A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA0DBBD91D51DE150015F20A /* Build configuration list for PBXNativeTarget "http_iosTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +507,7 @@
 				BA0DBBDB1D51DE150015F20A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA0DBBDC1D51DE150015F20A /* Build configuration list for PBXNativeTarget "http_iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +516,7 @@
 				BA0DBBDE1D51DE150015F20A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
