@@ -19,6 +19,7 @@
 		BA0DBBE01D51DF000015F20A /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DBBDF1D51DF000015F20A /* TweetsViewController.swift */; };
 		BA0DBBE21D51E0960015F20A /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DBBE11D51E0960015F20A /* Tweet.swift */; };
 		BA0DBBE61D51E7C80015F20A /* TweetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0DBBE51D51E7C80015F20A /* TweetDetailViewController.swift */; };
+		BAD7C1271D51FFFB00E5CE78 /* TweetCreateFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD7C1261D51FFFB00E5CE78 /* TweetCreateFormController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		BA0DBBDF1D51DF000015F20A /* TweetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
 		BA0DBBE11D51E0960015F20A /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		BA0DBBE51D51E7C80015F20A /* TweetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetDetailViewController.swift; sourceTree = "<group>"; };
+		BAD7C1261D51FFFB00E5CE78 /* TweetCreateFormController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCreateFormController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				BA0DBBDF1D51DF000015F20A /* TweetsViewController.swift */,
 				BA0DBBE11D51E0960015F20A /* Tweet.swift */,
 				BA0DBBE51D51E7C80015F20A /* TweetDetailViewController.swift */,
+				BAD7C1261D51FFFB00E5CE78 /* TweetCreateFormController.swift */,
 			);
 			path = http_ios;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				BA0DBBE21D51E0960015F20A /* Tweet.swift in Sources */,
 				BA0DBBB11D51DE150015F20A /* ViewController.swift in Sources */,
 				BA0DBBB71D51DE150015F20A /* http_ios.xcdatamodeld in Sources */,
+				BAD7C1271D51FFFB00E5CE78 /* TweetCreateFormController.swift in Sources */,
 				BA0DBBAF1D51DE150015F20A /* AppDelegate.swift in Sources */,
 				BA0DBBE61D51E7C80015F20A /* TweetDetailViewController.swift in Sources */,
 			);

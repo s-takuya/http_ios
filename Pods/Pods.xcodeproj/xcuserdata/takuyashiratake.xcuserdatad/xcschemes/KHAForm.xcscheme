@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9E8ADC556AA6C0DD84B4B3C0DE3D51F5'
-               BlueprintName = 'SwiftyJSON'
+               BlueprintIdentifier = '51696C1BFE88A9E505ED392F7546B736'
+               BlueprintName = 'KHAForm'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SwiftyJSON.framework'>
+               BuildableName = 'KHAForm.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

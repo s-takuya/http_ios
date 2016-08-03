@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>KHAForm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,7 +32,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>13924BB537E79D0BD238349676E633C4</key>
+		<key>51696C1BFE88A9E505ED392F7546B736</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,7 +42,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A3293BCC5B483FB14DC2EA4F4AB4387B</key>
+		<key>9E8ADC556AA6C0DD84B4B3C0DE3D51F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C2C8E59742871C8C42E40AB4CDCE1532</key>
 		<dict>
 			<key>primary</key>
 			<true/>

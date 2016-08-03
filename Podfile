@@ -1,4 +1,4 @@
-platform :ios, '8.0'
+platform :ios, '9.0'
 use_frameworks!
 
 target 'http_ios' do
@@ -6,5 +6,6 @@ target 'http_ios' do
 pod 'Alamofire'
 pod 'SwiftyJSON'
 pod 'ObjectMapper'
+pod 'KHAForm', '0.2.2'
 
 end
