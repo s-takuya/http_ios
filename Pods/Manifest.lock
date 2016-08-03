@@ -1,12 +1,18 @@
 PODS:
-  - KHAForm (0.1.8)
+  - Alamofire (3.4.1)
+  - ObjectMapper (1.3.0)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
-  - KHAForm
+  - Alamofire
+  - ObjectMapper
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
-  KHAForm: cdaa8215d255cf44696a68afa578cb4ac70ca096
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  ObjectMapper: 4eb08a726e9791a93b2632049951b56a7c17e471
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: f99b7df88c1473e22ae01256cb6754a6b4b08ee5
+PODFILE CHECKSUM: 9a3752719405acac78a539dc3180f92b69dba84b
 
 COCOAPODS: 1.0.1

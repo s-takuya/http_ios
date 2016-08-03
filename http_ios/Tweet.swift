@@ -1,4 +1,7 @@
 import UIKit
+import ObjectMapper
+import Alamofire
+import SwiftyJSON
 
 class Tweet: CustomStringConvertible {
     
